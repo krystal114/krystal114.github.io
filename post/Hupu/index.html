@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>虎扑 | 产品分析报告 | Krystal</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://krystal114.github.io/favicon.ico?v=1670480493768">
+<link rel="stylesheet" href="https://krystal114.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="
+  虎扑的是一个社区类APP，从最初的一个体育论坛逐渐转变成一个多元内容社区。和知乎、豆瓣不同，虎扑依靠体育新闻资讯聚集大量JRs，通过创建不同主队社区板块，构建众多子社区，这些子社区才是虎扑的核心。本文将从产品概述、产品功能、用户画像等..." />
+    <meta name="keywords" content="产品" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://krystal114.github.io">
+        <img src="https://krystal114.github.io/images/avatar.png?v=1670480493768" class="site-logo">
+        <h1 class="site-title">Krystal</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            Home
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            Articles
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            Labels
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            Contact
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      Just do it and enjoy !
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/krystal114" target="_blank">Krystal</a> | <a class="rss" href="https://krystal114.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">虎扑 | 产品分析报告</h2>
+            <div class="post-date">2022-12-04</div>
+            
+              <div class="feature-container" style="background-image: url('https://krystal114.github.io/post-images/Hupu.png')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <blockquote>
+<p>  虎扑的是一个社区类APP，从最初的一个体育论坛逐渐转变成一个多元内容社区。和知乎、豆瓣不同，虎扑依靠体育新闻资讯聚集大量JRs，通过创建不同主队社区板块，构建众多子社区，这些子社区才是虎扑的核心。本文将从产品概述、产品功能、用户画像等角度去分析虎扑社区。</p>
+</blockquote>
+<!-- more -->
+<p><ul class="markdownIt-TOC">
+<li><a href="#%E4%BA%A7%E5%93%81%E6%A6%82%E8%BF%B0">产品概述</a></li>
+<li><a href="#%E4%BA%A7%E5%93%81%E9%80%BB%E8%BE%91%E5%88%86%E6%9E%90">产品逻辑分析</a></li>
+<li><a href="#%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90">需求分析</a></li>
+<li><a href="#%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F">用户画像</a></li>
+<li><a href="#%E5%B8%82%E5%9C%BA%E7%8A%B6%E5%86%B5">市场状况</a></li>
+<li><a href="#%E4%BA%A7%E5%93%81%E5%8A%9F%E8%83%BD">产品功能</a></li>
+<li><a href="#%E7%AB%9E%E5%93%81%E5%88%86%E6%9E%90">竞品分析</a></li>
+<li><a href="#%E6%80%BB%E7%BB%93">总结</a></li>
+</ul>
+</p>
+<h1 id="产品概述">产品概述</h1>
+<ul>
+<li>
+<p><strong>体验环境</strong><br>
+设备：红米K30S<br>
+操作系统：MIUI 13.0.6<br>
+体验版本：v8.0.29<br>
+体验网络：4G、无线网<br>
+体验时间：2022.11.27 - 2022.12.1</p>
+</li>
+<li>
+<p><strong>产品介绍</strong></p>
+</li>
+</ul>
+<ol>
+<li>2004年1月CEO程杭博士在芝加哥创建HoopCHINA篮球论坛，Hoop的中文意思是篮圈、篮框。虎扑最开始是以篮球为主要方向，是一个典型的专注于篮球赛事的垂直社区。</li>
+<li>2007年09月，成立公司运营，11月创建足球、F1、网球和C2C频道，开始进行多元化体育发展。</li>
+<li>2012年05月，虎扑体育Android、iPhone手机客户端正式上线，进军移动互联网领域，同年10月份，赞助WCBA联赛，成为职业联赛合作伙伴，为其提供官网服务。</li>
+<li>2014年，虎扑开始开辟购物板块，创办了导购网站“识货”，进军电商产业，到2017年交易规模达到了20亿，占据了虎扑商业化板块很大比重。</li>
+<li>2019年6月份，字节跳动以12.6亿元人民币的价格收购了30%的股权，成为了虎扑第一大股东。</li>
+<li>截至目前，虎扑包括篮球、足球、步行街、影视、电竞五大板块300多个话题区，从最初的一个体育论坛逐渐转变成一个年轻人的多元内容社区。</li>
+</ol>
+<ul>
+<li><strong>产品定位</strong></li>
+</ul>
+<ol>
+<li>最开始的定位是专注于篮球赛事的垂直社区，为篮球爱好者提供篮球资讯和交流的平台。</li>
+<li>随着不同体育板块的开通，虎扑的定位是多元体育平台，为各类体育爱好者提供交流的平台。</li>
+<li>紧接着数码、影视等非体育板块的开通，越来越多年轻人加入虎扑社区，虎扑逐渐变成多元内容社区</li>
+<li>现在，虎扑是一个为体育爱好者提供专业的体育资讯、赛事直播的体育平台，又是一个真实有趣有温度的年轻人社区。</li>
+</ol>
+<ul>
+<li><strong>产品slogan</strong></li>
+</ul>
+<ol>
+<li>”虎扑，可能是最好的篮球网站“</li>
+<li>”虎扑，你的体育全世界“</li>
+<li>”世界是一个竞技场“</li>
+</ol>
+<h1 id="产品逻辑分析">产品逻辑分析</h1>
+<ul>
+<li>
+<p><strong>产品特色（创新模式）</strong></p>
+</li>
+<li>
+<p><strong>产品结构</strong></p>
+</li>
+<li>
+<p><strong>产品业务逻辑流程图</strong></p>
+</li>
+</ul>
+<h1 id="需求分析">需求分析</h1>
+<ul>
+<li>
+<p><strong>基本型需求</strong></p>
+</li>
+<li>
+<p><strong>期望型需求</strong></p>
+</li>
+<li>
+<p><strong>兴奋型需求</strong></p>
+</li>
+</ul>
+<h1 id="用户画像">用户画像</h1>
+<ul>
+<li>
+<p><strong>用户年龄</strong></p>
+</li>
+<li>
+<p><strong>用户区域</strong></p>
+</li>
+<li>
+<p><strong>典型用户画像</strong></p>
+</li>
+</ul>
+<h1 id="市场状况">市场状况</h1>
+<ul>
+<li>
+<p><strong>市场份额</strong></p>
+</li>
+<li>
+<p><strong>市场数据分析</strong></p>
+</li>
+</ul>
+<h1 id="产品功能">产品功能</h1>
+<ul>
+<li>
+<p><strong>核心功能</strong></p>
+</li>
+<li>
+<p><strong>特色功能</strong></p>
+</li>
+</ul>
+<h1 id="竞品分析">竞品分析</h1>
+<h1 id="总结">总结</h1>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://krystal114.github.io/tag/IAGvSiCYK/" class="tag">
+                    产品
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://krystal114.github.io/post/transformer/">
+                  <h3 class="post-title">
+                    Transformer
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>

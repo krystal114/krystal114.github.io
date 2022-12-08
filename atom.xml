@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://krystal114.github.io</id>
+    <title>Krystal</title>
+    <updated>2022-12-08T06:22:12.215Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://krystal114.github.io"/>
+    <link rel="self" href="https://krystal114.github.io/atom.xml"/>
+    <subtitle>Just do it and enjoy !</subtitle>
+    <logo>https://krystal114.github.io/images/avatar.png</logo>
+    <icon>https://krystal114.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, Krystal</rights>
+    <entry>
+        <title type="html"><![CDATA[虎扑 | 产品分析报告]]></title>
+        <id>https://krystal114.github.io/post/Hupu/</id>
+        <link href="https://krystal114.github.io/post/Hupu/">
+        </link>
+        <updated>2022-12-04T08:44:18.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>  虎扑的是一个社区类APP，从最初的一个体育论坛逐渐转变成一个多元内容社区。和知乎、豆瓣不同，虎扑依靠体育新闻资讯聚集大量JRs，通过创建不同主队社区板块，构建众多子社区，这些子社区才是虎扑的核心。本文将从产品概述、产品功能、用户画像等角度去分析虎扑社区。</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>  虎扑的是一个社区类APP，从最初的一个体育论坛逐渐转变成一个多元内容社区。和知乎、豆瓣不同，虎扑依靠体育新闻资讯聚集大量JRs，通过创建不同主队社区板块，构建众多子社区，这些子社区才是虎扑的核心。本文将从产品概述、产品功能、用户画像等角度去分析虎扑社区。</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Transformer]]></title>
+        <id>https://krystal114.github.io/post/transformer/</id>
+        <link href="https://krystal114.github.io/post/transformer/">
+        </link>
+        <updated>2022-12-04T06:32:40.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>  Transformer由论文<a href="https://arxiv.org/pdf/1706.03762.pdf">Attention is All You Need</a>提出，在本文中，我们将试图把模型简化一点，并逐一介绍里面的核心概念，希望让普通读者也能轻易理解。</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>  Transformer由论文<a href="https://arxiv.org/pdf/1706.03762.pdf">Attention is All You Need</a>提出，在本文中，我们将试图把模型简化一点，并逐一介绍里面的核心概念，希望让普通读者也能轻易理解。</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://krystal114.github.io/post/hello-gridea/</id>
+        <link href="https://krystal114.github.io/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></content>
+    </entry>
+</feed>
